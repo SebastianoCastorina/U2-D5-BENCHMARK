@@ -9548,16 +9548,17 @@
     </main>
     <script>
       const navbar = document.querySelector("nav");
+      const button = document.querySelector("button");
 
-      document.addEventListener("scroll", function (e) {
-        console.log(window.scrollY);
-        if (window.scrollY > 250) {
+      window.onscroll = () => {
+        if (window.scrollY > 550) {
           navbar.classList.add("animazione");
-        } else window.scrollY < 1;
-        {
-          navbar.classList.toggle("animazione");
+          button.classList.add("button-scroll");
+        } else {
+          navbar.classList.remove("animazione");
+          button.classList.remove("button-scroll");
         }
-      });
+      };
     </script>
   </body>
 </html>

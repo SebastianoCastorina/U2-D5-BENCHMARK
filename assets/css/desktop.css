@@ -50,8 +50,10 @@ nav {
   }
 }
 .animazione {
-  animation: scrollo forwards 0.1s;
   background-color: white;
+}
+.button-scroll {
+  background-color: green;
 }
 
 nav a {
@@ -227,6 +229,7 @@ svg {
 }
 
 aside {
+  display: flex;
   width: 45%;
   margin: 2.5%;
 }
