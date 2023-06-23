@@ -1,0 +1,259 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap");
+
+html {
+  font-family: "Roboto", sans-serif;
+  font-size: 0.9rem;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+}
+
+main {
+  height: 100%;
+}
+
+h2 {
+  font-family: "Spectral", serif;
+  font-size: 7rem;
+  margin-bottom: 5%;
+  font-weight: bold;
+}
+
+header {
+  border-bottom: 1px solid #191919;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 2% 4%;
+  background-color: #ffc017;
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 1;
+}
+@keyframes scrollo {
+  0% {
+    background-color: #ffc017;
+  }
+  20% {
+    background-color: #ffc017;
+  }
+  50% {
+    background-color: white;
+  }
+  100% {
+    background-color: white;
+  }
+}
+.animazione {
+  animation: scrollo forwards 0.1s;
+  background-color: white;
+}
+
+nav a {
+  text-decoration: none;
+  color: black;
+}
+
+nav button {
+  background-color: #191919;
+  color: white;
+  border-radius: 99em;
+  padding: 8px 16px;
+  border: none;
+  margin-right: 10em;
+}
+
+ul {
+  display: flex;
+  width: 40%;
+  justify-content: space-between;
+  align-items: center;
+  list-style-type: none;
+}
+
+.eroe {
+  display: flex;
+  background-color: #ffc017;
+  border-bottom: 1px solid #191919;
+  position: relative;
+  z-index: 0;
+  top: 8%;
+}
+
+.title_container {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding-left: 10%;
+}
+
+.title_container p {
+  font-size: 2rem;
+}
+
+.title_container button {
+  width: 30%;
+  background-color: #191919;
+  color: white;
+  border-radius: 99em;
+  padding: 12px 24px;
+  margin-top: 5%;
+  border: none;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+svg {
+  width: 50%;
+}
+
+.trend h3 {
+  display: inline;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.trend {
+  border-bottom: 1px solid #19191947;
+}
+
+.trend-title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1%;
+  margin-left: 2.5%;
+}
+
+.trend-title img {
+  padding-right: 1%;
+}
+
+.cards-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+.card {
+  display: flex;
+  width: 30%;
+  margin-bottom: 2.5%;
+}
+.card h4 {
+  display: inline;
+  font-size: 2rem;
+  font-weight: bold;
+  opacity: 0.1;
+  margin-right: 2%;
+}
+
+.card-description {
+  display: inline-flex;
+  align-items: center;
+}
+
+.card-description img {
+  border-radius: 3px;
+  margin-right: 2%;
+  width: 20px;
+}
+
+#circle-image {
+  border-radius: 50%;
+  margin-right: 2%;
+  width: 20px;
+}
+
+.total-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.total-card p {
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+
+.total-card span {
+  opacity: 0.5;
+}
+.reader-time {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+
+.reader-time img {
+  opacity: 1;
+}
+
+.post h3 {
+  display: inline;
+  font-weight: bold;
+  line-height: 20px;
+  font-size: 1.2rem;
+  margin: 2% 0;
+}
+
+.single-post {
+  display: flex;
+  width: 45%;
+  margin: 2.5% 5%;
+  justify-content: space-between;
+}
+.post-image {
+  width: 25%;
+}
+
+.post-reader-time {
+  display: flex;
+  justify-content: space-between;
+}
+.post-reader-time p {
+  opacity: 0.5;
+  display: flex;
+  align-items: center;
+}
+.post-aside {
+  display: flex;
+  justify-content: space-between;
+}
+
+aside {
+  width: 45%;
+  margin: 2.5%;
+}
+
+.type-list {
+  display: flex;
+  flex-wrap: wrap;
+  border-bottom: 1px solid #19191947;
+  padding: 5% 0;
+}
+
+.type-list a {
+  width: 25%;
+  text-decoration: none;
+  color: #191919;
+  border: 1px solid #191919;
+  border-radius: 10px;
+  padding: 2%;
+  margin: 2%;
+  opacity: 0.5;
+}
+
+.footer a {
+  font-size: 1.2rem;
+  display: inline-block;
+  margin: 5% 2.5%;
+  text-decoration: none;
+  color: #191919;
+  opacity: 0.5;
+}
