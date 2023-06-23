@@ -206,7 +206,7 @@ svg {
 
 .single-post {
   display: flex;
-  width: 45%;
+  width: 100%;
   margin: 2.5% 5%;
   justify-content: space-between;
 }
@@ -227,11 +227,21 @@ svg {
   display: flex;
   justify-content: space-between;
 }
+.post {
+  width: 45%;
+}
 
 aside {
   display: flex;
   width: 45%;
   margin: 2.5%;
+  flex-direction: column;
+}
+
+.scopri-scroll {
+  position: fixed;
+  top: 10%;
+  right: 0;
 }
 
 .type-list {
